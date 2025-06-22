@@ -1,3 +1,4 @@
+import CategoriyPart from "@/components/all-products/category-part";
 import Products from "@/components/all-products/Products";
 import Footer from "@/components/Footer";
 import LandingBanner from "@/components/LandingBanner";
@@ -28,6 +29,11 @@ export default function Home() {
       {/* All Products */}
       <div className="my-8">
         <Products />
+      </div>
+
+      {/* Category Part */}
+      <div className="my-8">
+        <CategoriyPart />
       </div>
 
       {/* footer */}
